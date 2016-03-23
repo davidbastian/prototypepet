@@ -1,0 +1,21 @@
+
+@import "./fonts/stylesheet.css";
+
+/*color*/
+$body-bg: #fff;
+$text-color: #242424;
+$brand-color:#4a90e2;
+
+/*font*/
+//$font-family-base: sans-serif;
+$font-family-base: 'c';
+$font-size: 18px;
+
+/*media queries*/
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+
+/*container*/
+$max-width-container : 2400px;
+
