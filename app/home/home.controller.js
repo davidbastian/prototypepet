@@ -503,7 +503,7 @@ function HomeController($scope, $http, $routeParams) {
 
             if (pert === 0) {
                 TweenMax.to($('.ball .number'), .4, {
-                    scale: '1',
+                    fontSize: (1) + 'vw',
                     // autoAlpha: '0',
                     ease: Expo.easeOut,
                 });
@@ -511,7 +511,7 @@ function HomeController($scope, $http, $routeParams) {
             } else {
 
                 TweenMax.to($('.ball .number'), .4, {
-                    scale: '1' * pert,
+                    fontSize: (1 * pert) + 'vw',
                     // autoAlpha: '0',
                     ease: Expo.easeOut,
                 });
@@ -563,7 +563,7 @@ function HomeController($scope, $http, $routeParams) {
 
             if (pert === 0) {
                 TweenMax.to($('.ball .number'), .4, {
-                    scale: '1',
+                    fontSize: (1) + 'vw',
                     // autoAlpha: '0',
                     ease: Back.easeOut,
                 });
@@ -571,7 +571,7 @@ function HomeController($scope, $http, $routeParams) {
             } else {
 
                 TweenMax.to($('.ball .number'), .4, {
-                    scale: '1' * pert,
+                    fontSize: (1 * pert) + 'vw',
                     // autoAlpha: '0',
                     ease: Back.easeOut,
                 });
